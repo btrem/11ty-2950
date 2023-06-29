@@ -4,6 +4,7 @@
   "description": "Suggested solution to problem raised in 11ty/eleventy discussion #2950.",
   "main": ".eleventy.js",
   "scripts": {
+    "start": "npx eleventy --serve --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/btrem/11ty-2950/issues"
   },
-  "homepage": "https://github.com/btrem/11ty-2950#readme"
+  "homepage": "https://github.com/btrem/11ty-2950#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
 }
